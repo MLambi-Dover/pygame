@@ -3,13 +3,13 @@ from PIL import ImageTk, Image
 
 win = tk.Tk()
 
-win.geometry("700x500")
+win.geometry("800x600")
 
 frame = tk.Frame(win, width=600, height=400)
 frame.pack()
 frame.place(anchor='center', relx=0.5, rely=0.5)
 
-img = ImageTk.PhotoImage(Image.open("spaceinvaders/assets/background-black.png"))
+img = ImageTk.PhotoImage(Image.open("assets/background-black.png"))
 
 label = tk.Label(frame, image = img)
 label.pack()
