@@ -3,6 +3,11 @@ from PIL import ImageTk, Image
 
 win = tk.Tk()
 
+
+# I would like to figure out ways to keep the same window/size
+# and change the image or background and resize it to the 
+# existing window.
+
 win.geometry("700x500")
 
 frame = tk.Frame(win, width=600, height=400)
