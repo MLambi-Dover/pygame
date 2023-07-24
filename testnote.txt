@@ -1,3 +1,0 @@
-This is a test file create to see if GitHub Desktop is working.
-This repo will be worked on from at least 3 places by me.
-They are all set up differently.
